@@ -1,0 +1,4 @@
+tools/compute_cov.cpp: In function ‘int main(int, char**)’:
+tools/compute_cov.cpp:70:6: warning: variable ‘size_in_datum’ set but not used [-Wunused-but-set-variable]
+  int size_in_datum = std::max<int>(datum.data().size(),
+      ^
